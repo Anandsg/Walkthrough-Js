@@ -25,18 +25,45 @@
 // console.log(min);
 
 //Object literals
-const person = {
-    firstName: 'virat',
-    lastName: 'kohli',
-    age: 30,
-    hobbies:['cricket', 'advertisment', 'sports'],
-    address: { 
-        street:'Shabbir nagar',
-        city:'bangalore',
-        state:'Karnataka'
-    }
-}
-console.log(person.firstName, person.lastName);
-console.log(person.hobbies[0]);
-console.log(person.address.state);
+// const person = {
+//     firstName: 'virat',
+//     lastName: 'kohli',
+//     age: 30,
+//     hobbies:['cricket', 'advertisment', 'sports'],
+//     address: { 
+//         street:'Shabbir nagar',
+//         city:'bangalore',
+//         state:'Karnataka'
+//     }
+// }
+// console.log(person.firstName, person.lastName);
+// console.log(person.hobbies[0]);
+// console.log(person.address.state);
+
+// todos
+
+const todos = [
+    {
+        id: 1,
+        Text: 'call with peter',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        Text: 'hospital appointment',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        Text: 'client meetings',
+        isCompleted: false
+    },
+    ]
+    // console.log(todos[0 ].Text);
+
+    //JSON
+    const todosJSN = JSON.stringify(todos);
+    console.log(todosJSN)
+   
+
 
