@@ -62,8 +62,12 @@ const todos = [
     // console.log(todos[0 ].Text);
 
     //JSON
-    const todosJSN = JSON.stringify(todos);
-    console.log(todosJSN)
+    // const todosJSN = JSON.stringify(todos);
+    // console.log(todosJSN)
    
+    //Loops
+    for(let i=0; i<todos.length;i++){
+        console.log(todos[i].Text)
+    }
 
 
