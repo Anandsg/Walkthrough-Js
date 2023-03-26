@@ -47,7 +47,7 @@ const todos = [
         id: 1,
         Text: 'call with peter',
         isCompleted: true
-    },
+    }, 
     {
         id: 2,
         Text: 'hospital appointment',
