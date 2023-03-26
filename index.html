@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <body>
+        <form action="#" onsubmit="Onsignup(event)">
+        <label> name: </label><br>
+        <input type="text" name ="Username" required> <br><br>
+        <label> email ID:</label><br>
+        <input type="email" name="email" required> <br><br>
+        <label>Phone number:</label><br>
+        <input type="text" name="PhoneNum"><br><br>
+        <input type="submit">
+    </form>
+    <script>
+        function Onsignup(event) {
+            event.preventDefault();
+            console.log(event.target.Username.value)
+            console.log(event.target.email.value)
+        }
+    </script>
+    </body>
+</head>
+</html>
